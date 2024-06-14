@@ -41,8 +41,15 @@
 					}*/						
 				?>
 				<?php
-					if ($msj==2)
+					if ($msj==1)
+						echo '<br><br><div class="alert alert-danger text-center">Error al Registrar usuario </div>';
+					elseif($msj==2)
 						echo '<br><br><div class="alert alert-danger text-center">Error de usuario y/o contraseña son incorrectos </div>';
+					elseif($msj==3)
+						echo '<br><br><div class="alert alert-danger text-center">usuario registrado correctamente </div>';
+					else{
+
+					}
 				?>
 				<div class="">
 					<div id="divContenido"> 

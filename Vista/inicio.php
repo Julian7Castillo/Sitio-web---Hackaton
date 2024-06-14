@@ -68,13 +68,12 @@
                 </div>
 
                 <div class="icono">
-                    <img src="Vista/img/gastronomia.png" alt="Icono gastronomia" class="img-nosotros">
+                    <img src="Vista/img/ciencia.png" alt="Icono ciencia y tecnologia" class="img-nosotros">
 
                     <h3>CIENCIA Y TECNOLIGIA</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat labore aut at voluptatem fuga! Expedita nostrum, vitae nobis molestias quis officiis quisquam saepe repellat voluptas ea a, explicabo officia illum.</p>
                 </div>
             </div>
         </section>
-
     </body>
 <html>

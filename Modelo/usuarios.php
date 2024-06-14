@@ -55,7 +55,7 @@
 			return ($this->password);
 		}
 		
-		public function crearUsuario($identificacion, $nombre,$apellido,$correo,$telefono,$password){
+		public function crearUsuario($identificacion,$nombre,$apellido,$correo,$telefono,$password){
 			$this->identificacion = $identificacion;
 			$this->nombre = $nombre;
 			$this->apellido = $apellido;
