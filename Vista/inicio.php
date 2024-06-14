@@ -69,13 +69,12 @@
                 </div>
 
                 <div class="icono">
-                    <img src="Vista/img/gastronomia.png" alt="Icono gastronomia" class="img-nosotros">
+                    <img src="Vista/img/ciencia.png" alt="Icono ciencia y tecnologia" class="img-nosotros">
 
                     <h3>CIENCIA Y TECNOLIGIA</h3>
                     <p>Manténgase al tanto de los avances y eventos en estos campos dentro de nuestras regiones, destacando innovaciones locales y oportunidades de aprendizaje.</p>
                 </div>
             </div>
         </section>
-
     </body>
 <html>

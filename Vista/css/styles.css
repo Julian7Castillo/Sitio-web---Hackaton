@@ -18,7 +18,6 @@ a:link{
     color: #8FBC8F;
 }
 
-
 footer{
     padding: 5rem;
     text-align: center;
@@ -87,7 +86,10 @@ section{
     border: .1rem solid #A0522D;
     background: #FFFFFF ;
     margin-bottom: 2rem;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26d1a9e4118bc870795b342c89584c69f019c074
 }
 
 .anuncio-card img {
@@ -161,7 +163,6 @@ section{
 }
 
 .img-nosotros{
-    
     max-width: 30%;
 }
 
@@ -230,25 +231,6 @@ section{
     margin-left: 1rem;
 }
 
-/* .fondo-boyaca{
-    /*Seleccionar la imagen de fondo*/
-    /*background: url(../img/back.jpeg);*/
-    
-    /*viewport haigt para que se acople al 100 orciento de alto*/
-    /*height: 100vh; */
-
-    /*altura minima deacuerddo al dispositivo*/
-    /*min-height: 60rem ;*/
-    
-    /*Pocicion del fondo*/
-    /*background-position: center;*/
-
-    /*opacity: .6;*/
-
-    /*escalar a la altura posible*/ 
-    /*background-size: cover;
-}*/
-
 .bienvenida{
     font-size: 2rem;
 }
@@ -256,4 +238,128 @@ section{
 .titulo{
     margin: auto;
 }
+.formulario{
+    padding: 0rem 17rem 0rem 17rem;
+}
 
+.camposformulario{
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.btnEncabezado{
+    all: unset;
+}
+
+.m-menu{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    margin-left: 1rem;
+}
+
+/*ESTILOS DEL MENU DESPLEGABLE*/
+/*estilo del elemento spam al momento cerrarlo*/
+.cerrar {
+    display:none;
+    font-size: 2rem;  
+}
+
+/*estilo del elemento spam al momento de abrirlo*/
+.abrir-cerrar {
+    color: #EBEFE6;
+    font-size:5rem;   
+}
+
+/*estilo del barra deslizante */
+#sidebar {
+    width:0;
+}
+
+/*estilo del la barra deslizante */
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #EBEFE6;
+    color: #000000;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding: 1rem 0;
+    box-sizing:border-box;
+}
+
+/*estilo del boton cerrar al momento de abrirse la barra deslizante*/
+.sidebar .boton-cerrar {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 2rem;
+    display: block;
+    padding: 0;
+    line-height: 1.5rem;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+}
+
+/*estilo del la barra en las listas no ordenadas y los elementos de estas */
+.sidebar ul, .sidebar li{
+    margin:0;
+    padding:0;
+    list-style:none inside;
+}
+
+/*estilo del los elementos no ordenados de la barra*/
+.sidebar ul {
+    margin: 4rem auto;
+    display: block;
+    width: 80%;
+    min-width:200px;
+}
+
+/*estilo de los links en las barra deslizante */
+.sidebar a {
+    display: block;
+    font-size: 120%;
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+/*estilo del los links al momento de sestar sobre ellos con el maus*/
+.sidebar a:hover{
+    color:#fff;
+    background-color: #71b100;
+}
+
+/*estilo de la entrada check button al momento de abrirse */
+input#abrir-cerrar {
+    visibility:hidden;
+    position: absolute;
+    top: -9999px;
+}
+
+/*estilo de la entrada check button*/
+input#abrir-cerrar:checked ~ #sidebar {
+    width:300px;
+}
+
+/*estilo de la entrada check button */
+input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:checked ~ #contenido {
+    margin-left:300px;
+    transition: margin-left .4s;
+}
+
+/*estilo de la entrada check button*/
+input#abrir-cerrar:checked + label[for="abrir-cerrar"] .cerrar {
+    display:inline;
+}
+
+/*estilo de la entrada check button al momento de cerrarse */
+input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
+    display:none;
+}
