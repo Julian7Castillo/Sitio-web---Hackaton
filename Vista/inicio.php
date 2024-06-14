@@ -7,37 +7,37 @@
             
             <!--Contenedor de los anuncios-->
             <div class="contenedor-anuncios">
-                <div class="anuncio">
-                    <img src="img/anuncio1.jpg" alt="anuncio casa en el lago">
+                <div class="anuncio-card">
+                    <img src="Vista/img/laguna.jpg" alt="anuncio casa en el lago" >
 
                     <!--Contenedor de tarjetas-->
                     <div class="contenido-anuncio">
                         <h3>Laguna de Tota</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, praesentium? Perferendis iure esse nobis asperiores porro molestias magni, magnam omnis minima harum odio temporibus corporis pariatur veniam quos. Molestias, nisi.</p>
+                        <p>El lago de Tota es un cuerpo de agua natural situado en el departamento de Boyacá, Colombia, en jurisdicción de los municipios de Cuítiva, Tota y Aquitania. Se encuentra ubicado a 34 km al sur de Sogamoso, aproximadamente 200 km al noreste de Bogotá, la capital del país. Con una superficie cercana a los 55 km², es el lago más grande de Colombia.</p>
 
                         <a class="boton boton-negro d-block" href="#">Ver Lugar</a>
                     </div>
                 </div>
 
-                <div class="anuncio">
-                    <img src="img/anuncio2.jpg" alt="anuncio casa moderna de lujo">
+                <div class="anuncio-card">
+                    <img src="Vista/img/Villa.jpg" alt="anuncio casa moderna de lujo" >
 
                     <!--Contenedor de tarjetas-->
                     <div class="contenido-anuncio">
                         <h3>Villa de Leyva</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, praesentium? Perferendis iure esse nobis asperiores porro molestias magni, magnam omnis minima harum odio temporibus corporis pariatur veniam quos. Molestias, nisi.</p>
+                        <p>Este pueblo es, sin duda, uno de los más bellos de Colombia, y es muy famoso por su importancia histórica y por su magnífica plaza, que le valieron ser reconocido como Monumento Nacional en 1954.De hecho, la Plaza Mayor de Villa de Leyva es la más grande de Colombia y una de las más imponentes de Suramérica con sus 14 mil metros cuadrados.</p>
                         
                         <a class="boton boton-negro d-block" href="#">Ver Lugar</a>
                     </div>
                 </div>
 
-                <div class="anuncio">
-                    <img src="img/anuncio3.jpg" alt="anuncio casa con picina">
+                <div class="anuncio-card">
+                    <img src="Vista/img/nevado.jpg" alt="anuncio casa con picina" >
 
                     <!--Contenedor de tarjetas-->
                     <div class="contenido-anuncio">
                         <h3>Nevado del Cocuy</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, praesentium? Perferendis iure esse nobis asperiores porro molestias magni, magnam omnis minima harum odio temporibus corporis pariatur veniam quos. Molestias, nisi.</p>
+                        <p>El Parque Nacional Natural Güicán, Cocuy y Chita es uno de los 59 parques nacionales naturales de Colombia.Está ubicado al centro-oriente del país, en el límite entre los departamentos de Boyacá, Casanare y Arauca, con una extensión de 306.000 ha (3.060 km²). El territorio del parque se ubica dentro de las jurisdicciones municipales de Güicán, Chita, El Cocuy, El Espino, Chiscas y Cubará en Boyacá, Sácama en Casanare, y Tame y Fortul en Arauca.</p>
                         
                         <a class="boton boton-negro d-block" href="#">Ver Lugar</a>
                     </div>
