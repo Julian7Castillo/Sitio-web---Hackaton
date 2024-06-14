@@ -25,7 +25,7 @@
 
 		<!--Lineas de cambio de icono en la ventana y el nombre en la ventana-->
         <link rel="icon" href="Vista/img/logo.jpg" type="image/x-icon">
-		<title>Publicidad Boyacá</title>
+		<title>Sabor a Boyacá</title>
 	</head>
 
 	<body>
