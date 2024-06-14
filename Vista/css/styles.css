@@ -86,8 +86,6 @@ section{
     background: #f5f5f5;
 
     margin-bottom: 2rem;
-    
-
 }
 
 .anuncio-card img {
@@ -213,25 +211,6 @@ section{
 .spaceMargin{
     margin-left: 1rem;
 }
-
-/* .fondo-boyaca{
-    /*Seleccionar la imagen de fondo*/
-    /*background: url(../img/back.jpeg);*/
-    
-    /*viewport haigt para que se acople al 100 orciento de alto*/
-    /*height: 100vh; */
-
-    /*altura minima deacuerddo al dispositivo*/
-    /*min-height: 60rem ;*/
-    
-    /*Pocicion del fondo*/
-    /*background-position: center;*/
-
-    /*opacity: .6;*/
-
-    /*escalar a la altura posible*/ 
-    /*background-size: cover;
-}*/
 
 .bienvenida{
     font-size: 2rem;
