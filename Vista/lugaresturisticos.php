@@ -1,6 +1,6 @@
 <!--main o contenido principal-->
         <main class="contenedor">
-            <h2 class="seccion centrar-texto fw-300">Casas y Apartamentos en Venta </h2>
+            <h2 class="seccion centrar-texto fw-300"> </h2>
             
             <!--Contenedor de los anuncios-->
             <div class="contenedor-anuncios">
