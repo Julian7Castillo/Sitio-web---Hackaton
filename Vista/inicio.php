@@ -12,7 +12,7 @@
 
                     <!--Contenedor de tarjetas-->
                     <div class="contenido-anuncio">
-                        <h3>Puente de Boyacá</h3>
+                        <h3>Laguna de Tota</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, praesentium? Perferendis iure esse nobis asperiores porro molestias magni, magnam omnis minima harum odio temporibus corporis pariatur veniam quos. Molestias, nisi.</p>
 
                         <a class="boton boton-negro d-block" href="#">Ver Lugar</a>
@@ -24,7 +24,7 @@
 
                     <!--Contenedor de tarjetas-->
                     <div class="contenido-anuncio">
-                        <h3>Tunja</h3>
+                        <h3>Villa de Leyva</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, praesentium? Perferendis iure esse nobis asperiores porro molestias magni, magnam omnis minima harum odio temporibus corporis pariatur veniam quos. Molestias, nisi.</p>
                         
                         <a class="boton boton-negro d-block" href="#">Ver Lugar</a>
@@ -36,7 +36,7 @@
 
                     <!--Contenedor de tarjetas-->
                     <div class="contenido-anuncio">
-                        <h3>Raquira</h3>
+                        <h3>Nevado del Cocuy</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, praesentium? Perferendis iure esse nobis asperiores porro molestias magni, magnam omnis minima harum odio temporibus corporis pariatur veniam quos. Molestias, nisi.</p>
                         
                         <a class="boton boton-negro d-block" href="#">Ver Lugar</a>
@@ -45,7 +45,7 @@
             </div>
 
             <div class="ver-todas">
-                <a class="boton boton-verde" href="anuncios.html">Ver Todos</a>
+                <a class="boton boton-verde" href="index.php?pag=lugaresturisticos">Ver Todos</a>
             </div>
         </main>
 

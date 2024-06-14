@@ -24,8 +24,8 @@
 		<link rel="stylesheet" href="Vista/css/styles.css">
 
 		<!--Lineas de cambio de icono en la ventana y el nombre en la ventana-->
-        <link rel="icon" href="Vista/img/logoMS.png" type="image/x-icon">
-		<title>Medical SysLab</title>
+        <link rel="icon" href="Vista/img/logo.jpg" type="image/x-icon">
+		<title>Publicidad Boyacá</title>
 	</head>
 
 	<body>
@@ -48,6 +48,7 @@
 					<div id="divContenido"> 
 						<?php include "Vista/".$pag.".php";?> 
 					</div>
+				</div>
 			</section>
 		</div>
 

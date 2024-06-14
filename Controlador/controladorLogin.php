@@ -10,12 +10,12 @@
 
 	$sql="SELECT * FROM usuarios WHERE usucc = '$login' AND usuPassword = '$pass'";
 
-	$resultado=$objConexion->query($sql);
+	$resultado = $objConexion->query($sql);
 	$existe = $resultado->num_rows;
 
 	if ($existe==1)  
 	{
-		$usuario=$resultado->fetch_object() or die ("Error");
+		$usuario = $resultado->fetch_object() or die ("Error");
 		$_SESSION['user']= $usuario->usuNombre;
 		$_SESSION['cc']= $usuario->usucc;
 		header("location:../index.php?pag=inicio");

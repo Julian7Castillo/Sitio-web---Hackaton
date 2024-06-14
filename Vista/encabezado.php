@@ -4,7 +4,7 @@
         <header>
             <div class="flex">
                 <div class="flex">
-                    <img src="Vista/img/logo.jpg"al="logo" style="width:100px;height:100px;">
+                    <img src="Vista/img/logo.jpg"al="logo" style="width:200px;height200px;">
                     <h1 class="text-center"> 
                         Publicidad Boyacá    
                     </h1>

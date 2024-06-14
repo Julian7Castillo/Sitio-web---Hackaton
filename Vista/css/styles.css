@@ -5,7 +5,7 @@ body{
 
 header{
     background-color: #EBEFE6;
-    color:#fff;
+    color:#000;
     padding: 10px 20px 0px 20px;
     margin: 0px 0px 0px 0px;
     max-width: 100%;
@@ -102,7 +102,6 @@ section{
     font-weight: 700;
 }
 
-
 .iconos-caracteristicas{
     list-style: none;
     padding: 0;
@@ -187,16 +186,16 @@ section{
 }
 
 .btn-custom{
-    background-color: #333333;
-    color: #fff;
+    background-color: #EBEFE6;
+    color: #000;
     padding: 1rem;
     position:unset;
     border-radius: 1rem;
 }
 
 .botonPerfil{
-    background:#333333;
-    color: #fff;
+    background:#EBEFE6;
+    color: #000;
     text-align: right;
 }
 
