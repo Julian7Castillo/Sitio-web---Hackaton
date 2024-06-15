@@ -29,7 +29,7 @@
                         <p>Este pueblo es, sin duda, uno de los más bellos de Colombia, y es muy famoso por su importancia histórica y por su magnífica plaza, que le valieron ser reconocido como Monumento Nacional en 1954.De hecho, la Plaza Mayor de Villa de Leyva es la más grande de Colombia y una de las más imponentes de Suramérica con sus 14 mil metros cuadrados.</p>
                         <br>
                         <br>
-                        <a class="boton boton-negro d-block" href="#">Ver Lugar</a>
+                        <a class="boton boton-negro d-block" href="index.php?pag=Villa">Ver Lugar</a>
                     </div>
                 </div>
 
