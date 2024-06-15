@@ -4,6 +4,9 @@
         <header>
             <div class="flex">
                 <div class="flex">
+                <?php  
+                    if($pag != 'login' && $pag != 'Registro'){
+                ?>
                     <div class="m-menu">
                         <input id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" />
                         <label for="abrir-cerrar">
@@ -20,6 +23,11 @@
                     </ul>
                 </div>
             </div>
+            <?php
+                }else{
+
+                }
+            ?>
                     <img src="Vista/img/logo.jpg"al="logo" style="width:170px;height170px;">
                     <h1 class="text-center"> 
                         Publicidad Boyacá    
