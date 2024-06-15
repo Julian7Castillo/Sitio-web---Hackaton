@@ -9,7 +9,7 @@
                         <img src="img/destacada.jpg" alt="">
                     </div>
             
-                    <div class="img-places" >
+                    <div class="img-places" style="display:flex; flex-direction:column; align-items: center;">
                         <img src="./Vista/img_place/pueblito.jpg" alt="villa-de-leyva">
                     </div>
             

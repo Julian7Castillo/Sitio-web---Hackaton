@@ -9,8 +9,8 @@
                         <img src="img/destacada.jpg" alt="">
                     </div>
             
-                    <div class="img-places" >
-                        <img src="./Vista/img_place/nevado.jpg" alt="villa-de-leyva">
+                    <div class="img-places" style="display:flex; flex-direction:column; align-items: center;">
+                        <img src="./Vista/img_place/nevado.jpg" alt="nevado">
                     </div>
             
             

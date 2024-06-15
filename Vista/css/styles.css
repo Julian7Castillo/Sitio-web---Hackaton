@@ -14,9 +14,12 @@ header{
     font-size: 1.8rem;
 }
 
-.link{
+a:active{
     color: #8FBC8F;
-    text-decoration: none;
+}
+    
+a:link{    
+        text-decoration: none;
 }
 
 footer{
@@ -43,6 +46,12 @@ main{
 
 section{
     padding: 0rem 2rem 0rem 2rem;
+}
+
+.img-places img{
+    width: 50%;
+    height: auto;
+    margin-bottom: 3rem;
 }
 
 /*utilidades*/
@@ -163,6 +172,9 @@ section{
 .img-nosotros{
     max-width: 30%;
 }
+
+
+
 
 .boton{
     color: #ffffff;
