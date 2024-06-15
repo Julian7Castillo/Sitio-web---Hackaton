@@ -14,7 +14,7 @@ header{
     font-size: 1.8rem;
 }
 
-a:link{
+.link{
     color: #8FBC8F;
     text-decoration: none;
 }
@@ -111,6 +111,7 @@ section{
 .contenido-anuncio a {
     margin-top: 1rem;
     background-color: #FFFFFF ;
+    color: #8FBC8F;
 }
 
 .contenedor-anuncios{
@@ -359,22 +360,4 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .cerrar {
 /*estilo de la entrada check button al momento de cerrarse */
 input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     display:none;
-}
-
-
-
-
-/* Estilos de info especifica de lugares */
-
-.img-places img{
-    width: 50%;
-    height: auto;
-    border-radius: 30px;
-}
-
-.img-places {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 3rem;
 }
