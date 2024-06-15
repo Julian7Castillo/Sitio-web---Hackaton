@@ -14,3 +14,8 @@ CREATE TABLE usuarios
 CREATE PROCEDURE insusu(cc BIGINT, nmb VARCHAR(30), apl VARCHAR(30),cor VARCHAR(50), cel CHAR(15), pasw VARCHAR(20))
 INSERT INTO usuarios(usucc, usuNombre, usuApellidos, usuCorreo, usuTelefono, usuPassword)
 VALUES (cc, nmb, apl, cor, cel, pasw);
+
+#actualizacion 
+CREATE PROCEDURE upusu(cc BIGINT,correo VARCHAR(50), telefono CHAR(15), passw VARCHAR(60)) 
+UPDATE usuarios SET usucc=cc, usuCorreo=correo, usuTelefono=telefono, usuPassword=passw 
+WHERE usucc = cc;

@@ -18,7 +18,7 @@
                         <li><a href="index.php?pag=inicio">Inicio</a></li><br>
                         <li><a href="index.php?pag=Perfil">Perfil</a></li><br>
                         <li><a href="index.php?pag=lugaresturisticos">Lugares</a></li><br>
-                        <li><a href="index.php?pag=inicio">Estadisticas</a></li><br>
+                        <li><a href="index.php?pag=analisisDatos">Estadisticas</a></li><br>
                         <li><a href="Controlador/Logout.php">Cerrar Sesión</a></li><br>
                     </ul>
                 </div>
@@ -30,7 +30,7 @@
             ?>
                     <img src="Vista/img/logo.jpg"al="logo" style="width:170px;height170px;">
                     <h1 class="text-center"> 
-                        Publicidad Boyacá    
+                        Boyacá es Turismo    
                     </h1>
                 </div>
                 <?php  

@@ -82,18 +82,10 @@
 
 		public function ActualizarUsuario()	{
 			$this->Conexion=Conectarse();
-			$sql="CALL upusu('$this->identificacion','$this->rol','$this->nombre', '$this->apelldio', '$this->fechanaci','$this->sexo', '$this->correo', '$this->telefono', '$this->fechanaci', '$this->fechanaci',  '$this->password');";
+			$sql="CALL upusu('$this->identificacion','$this->correo', '$this->telefono', '$this->password');";
 			$resultado=$this->Conexion->query($sql);
 			$this->Conexion->close();
 			return $resultado;
-		}	
-
-		public function BorrarUsuario(){
-			$this->Conexion=Conectarse();
-			$sql="DELETE FROM usuarios WHERE usLogin='$this->identificacion'";
-			$resultado=$this->Conexion->query($sql);
-			$this->Conexion->close();
-			return $resultado;	
 		}	
 	}
 ?>

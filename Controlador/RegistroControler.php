@@ -10,12 +10,6 @@
 	try{
 		$objUsuario = New Usuario();
 		$objUsuario->crearUsuario($_POST['cc'], $_POST['nombre'], $_POST['apellido'], $_POST['email'], $_POST['telefono'],$_POST['pss']);
-
-		// Genera el código JavaScript para enviar los datos a la consola
-		echo '<script>';
-		echo 'console.log("Datos recibidos por POST:", ' . $postData . ');';
-		echo '</script>';
-
 		$resultado=$objUsuario->agregarUsuario();
 	
 		if($resultado)
