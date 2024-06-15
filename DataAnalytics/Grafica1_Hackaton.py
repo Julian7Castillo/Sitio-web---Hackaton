@@ -4,10 +4,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
-import statsmodels.api as sm
+#import statsmodels.api as sm
 
 #Cargar el archivo de Excel
-archivo = './cocreacion3/TerriData_Dim28.xlsx'
+archivo = './DataAnalytics/TerriData_Filtrado.xlsx'
 df = pd.read_excel(archivo)
 
 df = df[df['Departamento'] == 'Boyacá']
