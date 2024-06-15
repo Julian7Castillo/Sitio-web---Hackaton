@@ -9,9 +9,9 @@
 				<article >
 					<p><h2 class="text-center bienvenida">Bienvenido, inicie sesión</h2><br><br>
 					<form class="center-div fondo-boyaca" action="./Controlador/controladorLogin.php" mothod="post">
-						<h3><p class="center-div prueba">Usuario: </p><br>
+						<h3><p class="center-div prueba">Usuario</p><br>
 						<INPUT type="text" name="usuario"><br><br>
-						<p class="center-div prueba">Contraseña: </p><br>
+						<p class="center-div prueba">Contraseña</p><br>
 						<INPUT type="password" name ="psw">
 						<button class="btn-custom" type="button" onclick="mostrar()">
 							<svg name="eye" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">

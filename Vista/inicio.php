@@ -16,7 +16,7 @@
                         <p>El lago de Tota es un cuerpo de agua natural situado en el departamento de Boyacá, Colombia, en jurisdicción de los municipios de Cuítiva, Tota y Aquitania. Se encuentra ubicado a 34 km al sur de Sogamoso, aproximadamente 200 km al noreste de Bogotá, la capital del país. Con una superficie cercana a los 55 km², es el lago más grande de Colombia.</p>
                         <br>
                         <br>
-                        <a class="boton boton-negro d-block" href="#">Ver Lugar</a>
+                        <a class="boton boton-negro d-block" href="index.php?pag=laguna">Ver Lugar</a>
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@
                     <div class="contenido-anuncio">
                         <h3>Nevado del Cocuy</h3>
                         <p>El Parque Nacional Natural Güicán, Cocuy y Chita es uno de los 59 parques nacionales naturales de Colombia.Está ubicado al centro-oriente del país, en el límite entre los departamentos de Boyacá, Casanare y Arauca, con una extensión de 306.000 ha (3.060 km²). El territorio del parque se ubica dentro de las jurisdicciones municipales de Güicán, Chita, El Cocuy, El Espino, Chiscas y Cubará en Boyacá, Sácama en Casanare, y Tame y Fortul en Arauca.</p>
-                        <a class="boton boton-negro d-block" href="#">Ver Lugar</a>
+                        <a class="boton boton-negro d-block" href="index.php?pag=nevado">Ver Lugar</a>
                     </div>
                 </div>
             </div>
