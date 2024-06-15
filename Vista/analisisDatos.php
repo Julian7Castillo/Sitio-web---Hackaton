@@ -51,50 +51,47 @@
                         <p>Sumérgete en la experiencia de descubrir cómo tanto los visitantes residentes como los no residentes exploraron nuestros hermosos parques naturales entre 2018 y 2023</p>
                     </div><!--contenido anuncio-->
                 </div><!--anuncio--> 
-            </div><br>
-
+            </div>
+            <br>
             <hr>
 
-            <b><h1 class="text-center"> Estadisticas de otros departamentos </h1></b>
+            <b><h1 class="text-center"> Estadisticas de visitantes de otros departamentos 2018 - 2023</h1></b>
 
         <!--Contenedor de los anuncios-->
         <div class="contenedor-anuncios">
             <div class="anuncio-card">
-                <img src="Vista/img/pueblito.jpg" alt="imaghen Pueblito Boyacense">
+                <img src="./Vista/img/tendencias_Turismo_Antioquia_hackaton.png" alt="imaghen Antioquia">
 
                 <!--Contenedor de tarjetas-->
                 <div class="contenido-anuncio">
-                    <h3>Pueblito Boyacense</h3>
-                    <p>En 1995, se constituyó en realidad por la creatividad del compositor y periodista José Ricardo Bautista Pamplona, con el apoyo de la administración central y el Fondo de Vivienda, mediante la puesta en marcha del Pueblito Boyacense, una muestra arquitectónica boyacense que cuenta con 124 viviendas y 20 locales comerciales.</p>
+                    <h3>Tendencias de estadistica turismo Antioquia</h3>
+                    <p></p>
 
-                    <a class="boton boton-amarillo d-block" href="index.php?pag=pueblito">Ver Lugar</a>
-                </div>
+                    </div>
             </div>
 
             <div class="anuncio-card">
-                <img src="Vista/img/raquira.jpg" alt="Imagen Raquira">
+                <img src="./Vista/img/tendencias_Turismo_Bolivar_hackaton.png" alt="Imagen Bolivar">
 
                 <!--Contenedor de tarjetas-->
                 <div class="contenido-anuncio">
-                    <h3>Raquira</h3>
-                    <p>Los antecedentes históricos de Ráquira remiten a un territorio ocupado por indígenas táquiras, ráquiras y mocabitas, pertenecientes a la familia Chibcha. Luego del siglo XVI, los pueblos de Ráquira y Mocabita se unieron y formaron uno solo.</p>
+                    <h3>Tendencias de estadistica turismo Bolivar</h3>
+                    <p></p>
                     <br>
 
-                    <a class="boton boton-amarillo d-block" href="index.php?pag=raquira">Ver Lugar</a>
-                </div>
+                    </div>
             </div>
 
             <div class="anuncio-card">
-                <img src="Vista/img/puente.jpg" alt="Imagen Puente de Boyacá">
+                <img src="./Vista/img/tendencias_Turismo_Santander_hackaton.png" alt="Imagen Santander">
 
                 <!--Contenedor de tarjetas-->
                 <div class="contenido-anuncio">
-                    <h3>Puente de Boyacá</h3>
-                    <p>Reconocido sitio turístico sobre el río Teatinos, donde fue construido un fastuoso monumento en honor a la Batalla de Boyacá. El sábado 7 de agosto de 1819 se libró la batalla que dio la victoria a los patriotas que lucharon en contra de la opresión española.</p>
+                    <h3>Tendencias de estadistica turismo Santander</h3>
+                    <p></p>
                     <br>
 
-                    <a class="boton boton-amarillo d-block" href="index.php?pag=puente">Ver Lugar</a>
-                </div><!--contenido anuncio-->
+                    </div><!--contenido anuncio-->
             </div><!--anuncio-->
         </div>
 
