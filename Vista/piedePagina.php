@@ -5,6 +5,7 @@
         <footer>
             <hr>
             <div class="text-center">
+                        </div>
                     </h4 class="text-center">© 2024 Todos los derechos reservados<br></h4>
                 </div>
             </div>  
