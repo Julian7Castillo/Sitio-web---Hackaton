@@ -56,7 +56,6 @@ plt.grid(True)
 plt.savefig('tendencias_visitas_parques_hackaton.png')  # Guardar la imagen
 plt.show()
 
-
 # #Distribuciones
 # #Histograma de la distribución de las ventas
 # plt.figure(figsize=(10, 6))

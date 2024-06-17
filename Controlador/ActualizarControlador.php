@@ -12,10 +12,12 @@
 		$objUsuario->crearUsuario($_POST['cc'], $_POST['nombreUsuario'], $_POST['ApellidoUsuario'], $_POST['Email'], $_POST['Telefono'],$_POST['password']);
 		$resultado=$objUsuario->ActualizarUsuario();
 	
-		if($resultado)
+		if($resultado){
 			header("location:../index.php?pag=inicio");
-		else
+		}
+		else{
 			header("location:../index.php?pag=Perfil");
+		}
 	}catch(Exception $e){
 		echo "Error: " .$e->getMessage();
 		header("location:../index.php?pag=Perfil");
