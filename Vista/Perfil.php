@@ -12,8 +12,8 @@
 			require "./Modelo/conecta.php";
 			require './Modelo/usuarios.php';
 			
-			$usuario = new Usuario();
-			$resultado = $usuario->Perfil($_SESSION['cc']);
+			$UsuarioHakathon = new UsuarioHakathon();
+			$resultado = $UsuarioHakathon->Perfil($_SESSION['ccHakathon']);
 			if (isset($resultado)) {
 				if($resultado->num_rows > 0 ){
 					echo '<div class="flex camposformulario">

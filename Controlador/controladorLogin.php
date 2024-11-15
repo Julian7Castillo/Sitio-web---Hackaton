@@ -2,26 +2,25 @@
 	session_start();
 	extract ($_POST);
 	require "../Modelo/conecta.php";
+	require "../Modelo/usuarios.php";
 
-	$pass = $_REQUEST['psw'];
-	$login = $_REQUEST['usuario'];
+	$passHakathon = $_REQUEST['pswHakathon'];
+	$loginHakathon = $_REQUEST['usuarioHakathon'];
 
-	$objConexion=Conectarse();
+	$objConexioHakathon=ConectarseHakathon();
 
-	$sql="SELECT * FROM usuarios WHERE usucc = '$login' AND usuPassword = '$pass'";
+	$sql="SELECT * FROM usuarios WHERE usuNombre = '$loginHakathon' AND usuPassword = '$passHakathon'";
 
-	$resultado = $objConexion->query($sql);
-	$existe = $resultado->num_rows;
+	$resultadoHakathon = $objConexioHakathon->query($sql);
+	$existe = $resultadoHakathon->num_rows;
 
-	if ($existe==1)  
-	{
-		$usuario = $resultado->fetch_object() or die ("Error");
-		$_SESSION['user']= $usuario->usuNombre;
-		$_SESSION['cc']= $usuario->usucc;
+	if ($existe==1) {
+		$Usuario = $resultado->fetch_object() or die ("Error");
+		$_SESSION['usuarioHakathon']= $Usuario->usuNombre;
+		$_SESSION['ccHakathon']= $Usuario->usucc;
 		header("location:../index.php?pag=inicio");
 	}
-	else
-	{
+	else{
 		header("location:../index.php?msj=2");  
 		//msj=2, quiere decir que el usuario no esta registrado
 	}
